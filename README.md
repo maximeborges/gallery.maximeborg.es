@@ -1,4 +1,4 @@
-# gallery.maximeborg.es
+# [gallery.maximeborg.es](https://gallery.maximeborg.es)
 
 :camera: Static photos gallery made with [Preact](https://github.com/developit/preact). Each albums is generated using a script to index the photos and generating the thumbnails.
 
