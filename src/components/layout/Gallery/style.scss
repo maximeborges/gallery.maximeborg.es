@@ -1,0 +1,26 @@
+@import '~style/helpers';
+
+.gallery {
+	#block-contain { 
+		display: flex;
+		flex-flow: column wrap;
+		max-width:100%;
+	}
+	.block {
+		padding:20px;
+		flex: 1 0 auto;
+		overflow:hidden;
+	}
+	.inner {
+		height: 100%;
+		display: flex;
+		flex: 1 0 auto;
+		justify-content:center;
+		align-items:center;
+		font-size:3em;
+		min-height:100px;
+		background: Gainsboro;
+	}
+
+
+}

@@ -1,0 +1,39 @@
+@import '~style/helpers';
+
+.sidebar {
+	position: fixed;
+	left: 0;
+	top: $header-height;
+	height: 100%;
+	width: $sidebar-width;
+	padding: 0;
+	background: $main-color;
+	z-index: 40;
+
+	nav {
+        width: 100%;
+		font-size: 100%;
+
+		a {
+			display: inline-block;
+			height: 56px;
+            width: 100%;
+			line-height: 56px;
+			padding: 0 15px;
+			text-align: center;
+			background: rgba(255,255,255,0);
+			text-decoration: none;
+			// color: #EEE;
+            color: $nice-gray;
+			will-change: background-color;
+
+			&:hover, &:active {
+				background: rgba(255,255,255,0.3);
+			}
+
+			&.active {
+				background: rgba(255,255,255,0.4);
+			}
+		}
+	}
+}

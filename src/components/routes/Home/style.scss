@@ -1,0 +1,17 @@
+@import '~style/helpers';
+
+.home {
+	padding: 0 20px;
+	min-height: 100%;
+	width: 100%;
+
+    h1 {
+        color: $title-color;
+    }
+
+    p > a {
+    	color: black;
+    	text-decoration: none;
+        border-bottom: 1px dashed black;
+    }
+}
